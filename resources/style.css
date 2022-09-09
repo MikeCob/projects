@@ -1,0 +1,6 @@
+.jumbotron {
+    max-width: 100vh;
+    max-height: 100vh;
+    background-image: url('resources/background.jpg');
+    background-size: cover;
+}
