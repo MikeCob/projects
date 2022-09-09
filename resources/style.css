@@ -1,6 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .jumbotron {
-    max-width: 100vh;
-    max-height: 100vh;
-    background-image: url('resources/background.jpg');
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 33, 65, 0.9), rgba(0, 19, 70, 0.2)), url('../resources/background.jpg');
     background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+}
+
+.jumbotron h1 {
+    padding-top: 30vh;
 }
