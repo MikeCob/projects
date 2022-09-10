@@ -5,7 +5,7 @@
 
 .jumbotron {
     height: 100vh;
-    background-image: linear-gradient(rgba(0, 33, 65, 0.9), rgba(0, 19, 70, 0.2)), url('../resources/background.jpg');
+    background-image: linear-gradient(rgb(20, 42, 63), rgba(16, 31, 71, 0.5)), url('../resources/background.jpg');
     background-size: cover;
     background-position: center;
     color: white;
@@ -13,5 +13,145 @@
 }
 
 .jumbotron h1 {
+    font-weight: 600;
     padding-top: 30vh;
+}
+
+.line {
+    height: 5px;
+    width: 12vh;
+    margin: 1em auto;
+    background-color: rgb(184, 67, 0);
+    border-radius: 5px;
+}
+
+.jumbotron h4 {
+    font-weight: lighter;
+}
+
+.button {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: 0;
+    color: white;
+    background-color: rgb(184, 67, 0);
+    border-radius: 50px;
+    padding: 20px 25px;
+}
+.more {
+    font-size: 15px;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.wrap {
+    padding: 100px 0px;
+    width: 100%;
+    color: white;
+    background-color: rgb(45, 92, 136);
+}
+
+.col-6 {
+    height: auto;
+    padding: 0px 30px !important; 
+}
+
+.portrait {
+    border-radius: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+
+h3 {
+    margin: 20px 0px;
+}
+
+.line2 {
+    height: 2px;
+    margin: 10px 0px;
+    width: 13vh;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 500,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.wrap2 {
+    padding: 100px 0px;
+}
+
+.projects {
+    text-align: left !important;
+    color: rgb(45, 92, 136) !important;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 500,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.line3 {
+    margin-bottom: 30px !important;
+    height: 2px;
+    margin: 10px 0px;
+    width: 13vh !important;
+    background-color: rgb(45, 92, 136);
+    border-radius: 5px;
+}
+
+.btn {
+    margin-top: 5px;
+    border: 0 !important;
+    border-radius: 15px !important;
+    background-color: rgb(184, 67, 0) !important;
+}
+
+.badge {
+    margin: 5px !important;
+}
+
+.card-img-top {
+    height: 15vh !important;
+}
+
+.wrap3 {
+    padding: 50px 0px;
+    width: 100%;
+    color: white;
+    background-color: rgb(45, 92, 136);
+}
+
+.contact {
+    text-align: left !important;
+}
+
+.secondary_wrap {
+    width: 60vh !important;
+}
+
+.linkedin {
+    width: 35px;
+}
+
+.mail {
+    height: 35px;
+}
+
+.wrap4 {
+    font-size: 9pt;
+    padding: 10px 0px;
+    width: 100%;
+    color: white;
+    background-color: rgb(45, 92, 136);
 }
