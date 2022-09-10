@@ -64,7 +64,9 @@
 
 .badge {
     font-size: 10pt !important;
-    background-color: rgb(184, 67, 0) !important;
+    background-color: #FFB200 !important;
+    color: black !important;
+    margin: 5px !important;
 }
 
 .portrait {
@@ -124,10 +126,6 @@ h3 {
     border: 0 !important;
     border-radius: 15px !important;
     background-color: rgb(184, 67, 0) !important;
-}
-
-.badge {
-    margin: 5px !important;
 }
 
 .card-img-top {
