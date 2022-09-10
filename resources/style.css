@@ -17,6 +17,10 @@
     padding-top: 30vh;
 }
 
+.jumbotron h4 {
+    line-height: normal;
+}
+
 .line {
     height: 5px;
     width: 12vh;
