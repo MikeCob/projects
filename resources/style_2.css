@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(45, 92, 136) !important;
+}
+
+.line {
+    height: 2px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    width: 30vh !important;
+    background-color: #FFB200;
+    border-radius: 5px;
+}
+
+h3 {
+    color: white;
+    margin-top: 70px !important;
+}
+
+h4 {
+    color: white;
+}
+
+.row {
+    margin-bottom: 30px;
+}
+
+p {
+    color: white;
+}
+
+.collecting {
+    max-width: 100%;
+}
