@@ -7,13 +7,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Real Estate Analysis</title>
+    <title>Data Wrangling</title>
     <link rel="icon" type="image/x-icon" href="mv.png">
 </head>
 <body>
     <div class="container">
         <div class="row justify-content-md-center">
-            <h3>Data Transforming</h3>
+            <h3>Data Wrangling</h3>
             <span><div class="line"></div></span>
             <div class="col-md-12">                
                 <h4>Summary</h4>
@@ -23,43 +23,36 @@
         </div>
         <div class="row justify-content-md-center">
             <div class="col-md-6">
-                <H4>Collecting Data</H4>
+                <H4>Raw Data</H4>
                 <p>Complete and accurate data is crucial to precisely analyze, visualize and predict trends. Therefore, data was collected from the most popular real estate website in Hungary with Python.</p>
                 <p>After analyzing realestatehungary.hu website's HTML structure and identifying the tags that held the key information, Beautiful Soup Python library was used for parsing and extracting data. The code found the advertisements based on the search criteria and logged the number of results in the terminal and automatically ran and parsed the data from the pages one by one. The code made it possible the follow the progress through the terminal as it logged the processed pages. Another Python library, Pandas was used to organize data into tables with headers and save it with the current date as the file name.</p>
                 <p>Python and libraries such as Beautiful Soup and Pandas made it possible to automatically collect and save data in a CSV file, ready for analysis.</p>
             </div>
             <div class="col-md-6">
-                <a href="Python webscraping.png" target="_blank" rel="noopener noreferrer"><img src="Python webscraping.png" alt="" class="collecting"></a>
+                <a href="raw_data.png" target="_blank" rel="noopener noreferrer"><img src="raw_data.png" alt="" class="collecting"></a>
             </div>
         </div>
         <div class="row justify-content-md-center">
             <div class="col-md-6">
-                <H4>Transforming Data</H4>
+                <H4>Data Cleaning and Transformation</H4>
                 <p>To have the data available for later usage and simple manipulation, the csv files were imported into Excel using Power Query to automate the process and clean the data from empty fields or spelling errors extracted from the website. Power Query cleaned and organized data into unified tables and sheets to avoid discrepancies, whenever a new csv file was available in the directory.</p>
                 <p>The data was ready for analyzing and visualizing after Power Query cleaned and organized the csv files into one Excel file.</p>
             </div>
             <div class="col-md-6">
-                <a href="Excel Power Query.png" target="_blank" rel="noopener noreferrer"><img src="Excel Power Query.png" alt="" class="collecting"></a>
+                <a href="VBA.png" target="_blank" rel="noopener noreferrer"><img src="VBA.png" alt="" class="collecting"></a>
             </div>
         </div>
         <div class="row justify-content-md-center">
             <div class="col-md-6">
-                <H4>Visualizing Data</H4>
+                <H4>Organized Data</H4>
                 <p>The data was imported into Power BI to visualize key insights and be able to filter and focus on certain areas with a dashboard. To enable this feature, additional data analysis expressions (DAX) were necessary to build formulas and relations between the sheets. When the data was ready, visuals were chosen to communicate findings in a simple, easy-to-understand form showing the required information such as average price, average price / square meter and the number of houses on the market.</p>
             </div>
             <div class="col-md-6">
-                <a href="Power BI 1.png" target="_blank" rel="noopener noreferrer"><img src="Power BI 1.png" alt="" class="collecting"></a>
-            </div>
-        </div>
-        <div class="row justify-content-md-center">
-            <div class="col-md-6">
-            </div>
-            <div class="col-md-6">
-                <a href="Project 2.gif" target="_blank" rel="noopener noreferrer"><img src="Power BI 3.png" alt="" class="collecting"></a>
+                <a href="organized_data.png" target="_blank" rel="noopener noreferrer"><img src="organized_data.png" alt="" class="collecting"></a>
             </div>
         </div>
     </div>
-    <div class="goback"><a href="../index.html" style="text-decoration:none;"><button type="button" class="button"><span class="material-symbols-outlined">
+    <div class="goback"><a href="../index.html#projectsid" style="text-decoration:none;"><button type="button" class="button"><span class="material-symbols-outlined">
         arrow_back_ios_new
         </span><span class="more"> Go back</span></button></a>
     </div>
