@@ -31,6 +31,8 @@
 
 .jumbotron h4 {
     font-weight: lighter;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .button {
