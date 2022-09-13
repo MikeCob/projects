@@ -121,9 +121,10 @@ h3 {
 }
 
 .card {
-    margin-left: auto !important;
-    margin-right: auto !important;
     margin-bottom: 30px;
+    max-width: 18rem;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .btn {
@@ -154,11 +155,11 @@ h3 {
 
 .linkedin {
     width: 35px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .mail {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     height: 35px;
 }
 
