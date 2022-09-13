@@ -149,14 +149,16 @@ h3 {
 }
 
 .secondary_wrap {
-    width: 60vh !important;
+    max-width: 20% !important;
 }
 
 .linkedin {
     width: 35px;
+    margin-bottom: 20px;
 }
 
 .mail {
+    margin-bottom: 20px;
     height: 35px;
 }
 
